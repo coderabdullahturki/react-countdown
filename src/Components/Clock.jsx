@@ -9,7 +9,7 @@ const Clock = ({timerDays, timerHours, timerMinutes, timerSeconds}) => {
                 <section>
                     <p>{timerDays}</p>
                     <small>Days</small>
-                </section>{" "}
+                </section>
                 <span>:</span>
                 <section>
                     <p>{timerHours}</p>
