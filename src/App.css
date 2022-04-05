@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Glitch&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,39 @@
   align-items: center;
 }
 
+.clock {
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(270deg, #051817, #0e3839);
+  height: 180px;
+  max-width: 450px;
+  color: #06f1f6;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 25px;
+}
 
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.clock section p {
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 3.8rem;
+}
+
+.clock section small {
+  font-family: 'Oswald', sans-serif;
+  color: silver;
+  text-shadow: none;
+}
 
 
